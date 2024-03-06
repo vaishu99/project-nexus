@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login and Sign up page</title>
+</head>
+<style>
+.container{
+width:100%;
+height:100vh;
+margin:0px;
+padding:10px;
+background-image:linear-gradient(rgba(0, 0, 0, 0.073) 0%, rgba(0, 0, 0, 0.073)
+100%), url("https://img.freepik.com/premium-photo/food-with-delivery-set-dishes-diet-top-view-free-space-your-text-black-background_187166-25369.jpg");
+background-size:cover;
+background-position:center;
+padding-left: 0%;
+padding-right: 0%;
+box-sizing: border-box;
+}
+.menu-icon{
+width:30px;
+cursor:pointer;
+margin-left: 70px;
+}
+nav ul li{
+list-style: none;
+display:inline-block;
+margin-left: 50px;
+color:white;
+}
+.row{
+display: flex;
+height: 150%;
+align-items:center;
+}
+.col{
+flex-basis: 50%;
+}
+h1{
+color:white;
+font-size: 50px;
+}
+p{
+color:white;
+font-size: 30px;
+line-height: 25px;
+}
+</style>
+<body>
+<div class="container">
+<div class="navbar">
+<nav>
+<ul><b>
+<li class="navlink">Home</li>
+<li class="navlink">About</li>
+<li class="navlink">Menu</li>
+<li class="navlink">Features</li>
+<li class="navlink">shop</li>
+<li class="navlink">Reservation</li>
+<li class="navlink">contact us</li> <br><br>
+<h1>Mr. Digby's</h1>
+<b><p> "Welcome To Our  Mr. Digby's Website"</p></b>
+<br><br>
+<button type="button">Login</button>
+<button type="button">Sign up</button>
+</b>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</body>
+</html>
